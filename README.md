@@ -1,46 +1,110 @@
-# 📊 Reporte Financiero - Adventure Works
+📊 Adventure Works – Análisis Financiero con Power BI
 
-Este proyecto fue desarrollado como parte de un módulo del curso de Data Analytics. El objetivo fue analizar datos financieros y comerciales de la empresa ficticia *Adventure Works* utilizando Power BI, SQL Server y Power Query. Se construyó un dashboard interactivo que facilita la toma de decisiones basada en datos.
+Autor: Gonzalez Ezequiel Antonio
+Carrera: Data Analytics | Proyecto Integrador M3
+Herramientas: SQL Server · Power BI · Power Query · DAX
 
-## 🛠️ Herramientas utilizadas
+🏢 Contexto del Proyecto
 
-- **SQL Server** – Restauración y consultas sobre la base de datos `AdventureWorksDW2019`.
-- **Power BI** – Visualización, modelado de datos y creación del dashboard.
-- **Power Query** – Limpieza y transformación de datos.
-- **DAX** – Creación de medidas personalizadas para KPIs financieros.
+Adventure Works es una empresa internacional líder en la venta de bicicletas, ropa deportiva y accesorios para actividades al aire libre. Con presencia en Estados Unidos, Canadá, Europa y Australia, su enfoque combina innovación, sostenibilidad y rendimiento para un mercado global cada vez más orientado al deporte y la movilidad.
 
-## 📌 Objetivos del proyecto
+Este proyecto busca transformar grandes volúmenes de datos en insights claros, accionables y visualmente atractivos que ayuden a la organización a tomar decisiones estratégicas basadas en datos.
 
-- Integrar múltiples fuentes de datos para generar un modelo consistente.
-- Desarrollar medidas clave como ingresos, costos, utilidad neta y ROI.
-- Visualizar resultados por país, región, categoría y periodo de tiempo.
-- Crear dashboards con diseño intuitivo (patrón de lectura en Z).
+🎯 Objetivos del Proyecto
 
-## 📊 Dashboard
+Construir un dashboard financiero interactivo que permita analizar las ventas globales y regionales.
 
-El tablero cuenta con:
+Proveer indicadores clave de rendimiento (KPIs) para medir ingresos, costos, rentabilidad y crecimiento.
 
-- KPIs clave (ingresos, utilidad neta, margen, costos, etc.).
-- Mapas geográficos de ventas por país.
-- Gráficos de evolución mensual y comparativa anual.
-- Filtros interactivos por año, ciudad y categoría.
-- Análisis específico del mercado estadounidense.
+Identificar patrones y oportunidades de negocio a través de análisis por región, producto y periodo temporal.
 
-## 🧠 Insights clave
+🔧 Proceso de Desarrollo
+1. 🗄️ Preparación y limpieza de datos
 
-- Estados Unidos representa el mayor volumen de ingresos.
-- Se identificaron regiones con baja rentabilidad y alto potencial.
-- Tendencia de crecimiento sostenido en ingresos y utilidad.
-- Visualización clara de márgenes y costos por categoría de producto.
+Restauración de la base de datos AdventureWorksDW2019 en SQL Server.
 
+Conexión y modelado en Power BI, integrando tablas de productos, clientes, geografía, promociones, fechas y ventas.
 
-## 🚀 Cómo visualizar el dashboard
+Transformación con Power Query:
 
-Este proyecto fue creado en Power BI Desktop. Para ver el archivo:
+Eliminación de valores nulos y columnas innecesarias.
 
-1. Descargar Power BI Desktop: https://powerbi.microsoft.com/
-2. Abrir el archivo `.pbix` (si está disponible en el repo).
-3. Explorar el dashboard con los filtros interactivos.
+Combinación y unificación de tablas para optimizar el modelo.
+
+Integración de información geográfica y de productos en tablas centrales.
+
+2. 📐 Diseño del Dashboard
+
+Creación de un mockup en PowerPoint siguiendo el patrón de lectura en “Z” para optimizar la experiencia del usuario.
+
+Enfoque en responder preguntas clave del negocio:
+
+¿Qué regiones generan más ingresos?
+
+¿Cuáles son las categorías más rentables?
+
+¿Cómo varían las ventas por año o ciudad?
+
+3. 📊 Modelado y creación de medidas con DAX
+
+Se desarrollaron métricas esenciales para el análisis financiero, entre ellas:
+
+👤 Clientes únicos – cantidad de compradores.
+
+💰 Ingresos y costos (COGS) – volumen de ventas y gastos totales.
+
+📈 Utilidad bruta y neta – rentabilidad operativa y final.
+
+📊 Comparativas interanuales (YTD, LY) – crecimiento o decrecimiento frente al año anterior.
+
+💡 Ratios financieros – margen bruto, ROI, porcentaje de costos y descuento promedio.
+
+4. 📉 Visualización y análisis en Power BI
+🌍 Vista Global
+
+KPIs clave: ingresos, utilidad, márgenes y operaciones totales.
+
+Mapa geográfico: distribución de ingresos por país.
+
+Treemap: ventas por región.
+
+Gráficos comparativos: evolución de ingresos año a año.
+
+Desglose por categoría: análisis detallado de líneas de negocio.
+
+🇺🇸 Vista Estados Unidos
+
+KPIs financieros específicos del mercado.
+
+Matriz dinámica con ventas por ciudad.
+
+Gráfico de anillos con distribución por categoría.
+
+Comparativa de ingresos vs. utilidad bruta para evaluar eficiencia.
+
+📈 Principales Hallazgos
+
+🇺🇸 Estados Unidos concentra la mayor parte de los ingresos, posicionándose como mercado estratégico.
+
+🌎 Existen desequilibrios regionales, con zonas de bajo rendimiento que representan oportunidades de expansión.
+
+📊 Tendencia positiva y sostenida en ingresos y utilidad bruta, lo que valida las estrategias actuales.
+
+🧭 El análisis por ciudad y categoría revela patrones que permiten optimizar inversiones y esfuerzos comerciales.
+
+🔮 Próximos Pasos
+
+Incorporar análisis predictivo para proyecciones de ventas y rentabilidad.
+
+Integrar datos de marketing y comportamiento del cliente.
+
+Automatizar la actualización y publicación del dashboard.
+
+💡 Reflexión Personal
+
+Este proyecto refuerza la importancia de convertir datos en información estratégica. Un dashboard bien diseñado no solo facilita la comprensión, sino que también guía decisiones de negocio con impacto real.
+Además, el uso de Power BI demostró ser esencial no solo para la visualización, sino también para el modelado, limpieza y transformación de datos a gran escala.
+
 
 ## 📬 Contacto
 
