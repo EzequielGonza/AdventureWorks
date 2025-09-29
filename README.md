@@ -1,16 +1,16 @@
-📊 Adventure Works – Análisis Financiero con Power BI
+## 📊 Adventure Works – Análisis Financiero con Power BI
 
 Autor: Gonzalez Ezequiel Antonio
 Carrera: Data Analytics | Proyecto Integrador M3
 Herramientas: SQL Server · Power BI · Power Query · DAX
 
-🏢 Contexto del Proyecto
+## 🏢 Contexto del Proyecto
 
 Adventure Works es una empresa internacional líder en la venta de bicicletas, ropa deportiva y accesorios para actividades al aire libre. Con presencia en Estados Unidos, Canadá, Europa y Australia, su enfoque combina innovación, sostenibilidad y rendimiento para un mercado global cada vez más orientado al deporte y la movilidad.
 
 Este proyecto busca transformar grandes volúmenes de datos en insights claros, accionables y visualmente atractivos que ayuden a la organización a tomar decisiones estratégicas basadas en datos.
 
-🎯 Objetivos del Proyecto
+## 🎯 Objetivos del Proyecto
 
 Construir un dashboard financiero interactivo que permita analizar las ventas globales y regionales.
 
@@ -18,7 +18,7 @@ Proveer indicadores clave de rendimiento (KPIs) para medir ingresos, costos, ren
 
 Identificar patrones y oportunidades de negocio a través de análisis por región, producto y periodo temporal.
 
-🔧 Proceso de Desarrollo
+## 🔧 Proceso de Desarrollo
 1. 🗄️ Preparación y limpieza de datos
 
 Restauración de la base de datos AdventureWorksDW2019 en SQL Server.
@@ -82,7 +82,7 @@ Gráfico de anillos con distribución por categoría.
 
 Comparativa de ingresos vs. utilidad bruta para evaluar eficiencia.
 
-📈 Principales Hallazgos
+## 📈 Principales Hallazgos
 
 🇺🇸 Estados Unidos concentra la mayor parte de los ingresos, posicionándose como mercado estratégico.
 
@@ -90,9 +90,9 @@ Comparativa de ingresos vs. utilidad bruta para evaluar eficiencia.
 
 📊 Tendencia positiva y sostenida en ingresos y utilidad bruta, lo que valida las estrategias actuales.
 
-🧭 El análisis por ciudad y categoría revela patrones que permiten optimizar inversiones y esfuerzos comerciales.
+## 🧭 El análisis por ciudad y categoría revela patrones que permiten optimizar inversiones y esfuerzos comerciales.
 
-🔮 Próximos Pasos
+## 🔮 Próximos Pasos
 
 Incorporar análisis predictivo para proyecciones de ventas y rentabilidad.
 
@@ -100,7 +100,7 @@ Integrar datos de marketing y comportamiento del cliente.
 
 Automatizar la actualización y publicación del dashboard.
 
-💡 Reflexión Personal
+## 💡 Reflexión Personal
 
 Este proyecto refuerza la importancia de convertir datos en información estratégica. Un dashboard bien diseñado no solo facilita la comprensión, sino que también guía decisiones de negocio con impacto real.
 Además, el uso de Power BI demostró ser esencial no solo para la visualización, sino también para el modelado, limpieza y transformación de datos a gran escala.
