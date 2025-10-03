@@ -1,7 +1,7 @@
 ## 📊 Adventure Works – Análisis Financiero con Power BI
 
 Autor: Gonzalez Ezequiel Antonio
-Carrera: Data Analytics | Proyecto Integrador M3
+Carrera: Data Analytics | Proyecto Integrador
 Herramientas: SQL Server · Power BI · Power Query · DAX
 
 ## 🏢 Contexto del Proyecto
@@ -115,5 +115,3 @@ Además, el uso de Power BI demostró ser esencial no solo para la visualizació
 ---
 
 
-
-# AdventureWorks
