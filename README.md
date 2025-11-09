@@ -43,7 +43,7 @@ Enfoque en responder preguntas clave del negocio:
 
 ¿Cuáles son las categorías más rentables?
 
-¿Cómo varían las ventas por año o ciudad?
+
 
 3. 📊 Modelado y creación de medidas con DAX
 
